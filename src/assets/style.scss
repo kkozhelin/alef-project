@@ -1,0 +1,28 @@
+$gray: rgba(17, 17, 17, 0.48);
+$grayM: rgba(250, 250, 250, 1);
+$grayL: rgba(241, 241, 241, 1);
+
+$primary: rgba(1, 167, 253, 1);
+$primaryHover: rgba(15, 121, 175, 1);
+$primaryActive: rgba(89, 199, 159, 1);
+$PrimaryDisabled: rgba(206, 236, 252, 1);
+
+$hoverOutline: rgba(110, 65, 226, 0.04);
+$activeOutline: rgba(110, 65, 226, 0.16);
+
+$error: rgba(219, 82, 78, 1);
+$done: rgba(89, 199, 159, 1);
+
+$black: rgba(17, 17, 17, 1);
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
